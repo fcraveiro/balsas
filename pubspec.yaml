@@ -12,15 +12,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
   flutter_view_controller: ^0.1.24
-  http: ^1.2.2
+  flutter_native_splash: ^2.4.1
+  cupertino_icons: ^1.0.6
   html: ^0.15.0
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
 
+flutter_native_splash:
+  color: "#3E6F8D"
+  image: assets/image/balsa512.png
+  ios: false
+  web: false
+
 flutter:
   uses-material-design: true
+  assets:
+    - assets/image/
