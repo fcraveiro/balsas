@@ -4,7 +4,7 @@ description: "A new Flutter project."
 
 publish_to: 'none' 
 
-version: 1.0.0+2
+version: 1.0.0+6
 
 environment:
   sdk: '>=3.4.3 <4.0.0'
@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
   flutter_view_controller: ^0.1.24
   flutter_native_splash: ^2.4.1
+  shared_preferences: ^2.3.2
   cupertino_icons: ^1.0.6
   html: ^0.15.0
   http: ^1.2.2
